@@ -9,7 +9,7 @@ if pyautogui.pixelMatchesColor(100,200,x, tolerance=0.9):
     print("we had a pixel match!")
 
 if pyautogui.pixelMatchesColor(200,200,(52,52,49), tolerance=0.9):
-    print("we had a pixel match!")
+    print("we had a pixel match!") 
 else:
     print('the second pixel did not match')
 
